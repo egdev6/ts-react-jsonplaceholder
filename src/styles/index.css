@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-egdev-bg: #0E0E0E;
+  --color-egdev-gray: #1A1A1A;
+  --color-egdev-dark: #740015;
+  --color-egdev-red: #FF0F34;
+  --color-egdev-text: #EAEAEA;
+
+  --font-sans: "Univia", "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-egdev-bg);
+  color: var(--color-egdev-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+@utility btn {
+  background-color: var(--color-egdev-red);
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--color-egdev-dark);
+  }
+}
+
+@utility card {
+  background-color: var(--color-egdev-gray);
+  border: 1px solid var(--color-egdev-dark);
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 0 10px var(--color-egdev-red);
+  }
+}
