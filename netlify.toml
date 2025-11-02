@@ -7,7 +7,7 @@
 
 [build.environment]
   # Versión de Node.js
-  NODE_VERSION = "18"
+  NODE_VERSION = "23.11.0"
   
   # Usar pnpm como gestor de paquetes
   NPM_FLAGS = "--version"
@@ -51,7 +51,3 @@
 # Context específico para producción
 [context.production]
   command = "pnpm run build"
-  
-# Configuración del plugin de Netlify para pnpm
-[[plugins]]
-  package = "netlify-plugin-pnpm"
