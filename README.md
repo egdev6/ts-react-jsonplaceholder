@@ -181,5 +181,5 @@ Este proyecto forma parte de mi serie educativa sobre TypeScript en LinkedIn, do
 [issues-url]: https://github.com/egdev6/ts-react-jsonplaceholder/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/egdev/
-[demo-url]: #
+[demo-url]: https://ts-react-jsonplaceholder.netlify.app/
 [demo-shield]: https://img.shields.io/badge/-Demo-black.svg?style=for-the-badge&colorB=555
